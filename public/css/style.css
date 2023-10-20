@@ -181,12 +181,30 @@ button:hover {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #84E09D;
     color: #84E09D;
+    animation: rainbow 3s linear infinite;
 }
 
 .download:hover {
-    background-color: #84E09D;
-    color: green;
-    border: 1px solid green;
+    background-color: #27292A;
+}
+
+@keyframes rainbow{
+    0%, 100% {
+        color: #84E09D;
+        border-color: #84E09D;
+    }
+    25% {
+        color: rgb(241, 241, 88);
+        border-color: rgb(241, 241, 88);
+    }
+    50% {
+        color: #EC608F;
+        border-color: #EC608F;
+    }
+    75% {
+        color: rgb(250, 34, 34);
+        border-color: rgb(250, 34, 34);
+    }
 }
 
 .copyright {
