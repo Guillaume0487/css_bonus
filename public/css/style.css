@@ -126,6 +126,7 @@ button:hover {
     margin-top: 10px;
     border: 2px dashed #EC608F;
     border-radius: 50%;
+    animation: turn 2s linear infinite;
 }
 
 .container {
@@ -195,10 +196,6 @@ button:hover {
 
 h2 a:hover {
     color: #df356d;
-}
-
-.cercle:hover {
-    animation: turn 2s linear infinite;
 }
 
 @keyframes turn{
