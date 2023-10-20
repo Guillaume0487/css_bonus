@@ -181,7 +181,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #84E09D;
     color: #84E09D;
-    animation: rainbow 3s linear infinite;
+    animation: rainbow 4s linear infinite;
 }
 
 .download:hover {
@@ -202,8 +202,8 @@ button:hover {
         border-color: #EC608F;
     }
     75% {
-        color: rgb(250, 34, 34);
-        border-color: rgb(250, 34, 34);
+        color: rgb(90, 90, 255);
+        border-color: rgb(90, 90, 255);
     }
 }
 
