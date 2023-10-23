@@ -12,22 +12,24 @@
 </head>
 <body>
     <header>
-        <a href="">
-            <img src="public/img/logo.png" alt="">
-        </a>
+        <img src="public/img/logo.png" alt="" class="logo">
         <nav>
-            <a href="" class="pink">Home</a>
-            <a href="">Browse</a>
-            <a href="">Details</a>
-            <a href="">Streams</a>
-            <div class="profile">
-                <a href="">Profile</a>
-                <img src="public/img/profile-header.jpg" alt="" style="border-radius: 50%;">
-            </div>
+            <ul class="navbar">
+                <li><a href="" class="pink">Home</a></li>
+                <li><a href="" class="grey hov">Browse</a></li>
+                <li><a href="" class="grey hov">Details</a></li>
+                <li><a href="" class="grey hov">Streams</a></li>
+                <li>
+                    <div class="profile">
+                        <a href="" class="grey">Profile</a>
+                        <img src="public/img/profile-header.jpg" alt="" style="border-radius: 50%;">
+                    </div>
+                </li>
+            </ul>
         </nav>
     </header>
     <section class="main-section">
-        <div class="bg-img">
+        <div class="bg-img" style="background: url(./public/img/banner-bg.jpg); background-size: cover; background-position: center;">
             <p>Welcome To Molengeek</p>
             <h1><span class="pink">BROWSE</span> OUR POPULAR<br>GAMES HERE</h1>
             <button>Browse Now</button>
@@ -56,15 +58,17 @@
                     <p><b>CS-GO</b></p>
                     <p class="grey">Legendary</p>
                 </div>
-                <div class="cards">
-                    <img src="public/img/popular-05.jpg" alt="">
-                    <p><b>Mini Craft</b></p>
-                    <p class="grey">Legendary</p>
-                </div>
-                <div class="cards">
-                    <img src="public/img/popular-06.jpg" alt="">
-                    <p><b>Eagles Fly</b></p>
-                    <p class="grey">Matrix Games</p>
+                <div class="cards bigger">
+                    <div class="cards">
+                        <img src="public/img/popular-05.jpg" alt="">
+                        <p><b>Mini Craft</b></p>
+                        <p class="grey">Legendary</p>
+                    </div>
+                    <div class="cards">
+                        <img src="public/img/popular-06.jpg" alt="">
+                        <p><b>Eagles Fly</b></p>
+                        <p class="grey">Matrix Games</p>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="public/img/popular-07.jpg" alt="">
@@ -84,7 +88,7 @@
         <div class="container">
             <h2><a href="" class="title">Your Gaming</a> <span class="pink">Library</span></h2>
             <div class="tab-container">
-                <img src="public/img/game-01.jpg" alt="" style="border-radius: 25px;" class="img-cover">
+                <img src="public/img/game-01.jpg" alt="" class="img-cover">
                 <div class="tab"><p><b>Dota 2</b></p><p class="grey">Sandbox</p></div>
                 <div class="tab"><p><b>Date Added</b></p><p class="grey">24/08/2036</p></div>
                 <div class="tab"><p><b>Hours Played</b></p><p class="grey">634 H 22 Mins</p></div>
@@ -92,7 +96,7 @@
                 <button class="download">Download</button>
             </div>
             <div class="tab-container">
-                <img src="public/img/game-02.jpg" alt="" style="border-radius: 25px;" class="img-cover">
+                <img src="public/img/game-02.jpg" alt="" class="img-cover">
                 <div class="tab"><p><b>Fortnite</b></p><p class="grey">Sandbox</p></div>
                 <div class="tab"><p><b>Date Added</b></p><p class="grey">22/06/2036</p></div>
                 <div class="tab"><p><b>Hours Played</b></p><p class="grey">740 H 52 Mins</p></div>
@@ -100,7 +104,7 @@
                 <button class="download">Download</button>
             </div>
             <div class="tab-container">
-                <img src="public/img/game-03.jpg" alt="" style="border-radius: 25px;" class="img-cover">
+                <img src="public/img/game-03.jpg" alt="" class="img-cover">
                 <div class="tab"><p><b>CS-GO</b></p><p class="grey">Sandbox</p></div>
                 <div class="tab"><p><b>Date Added</b></p><p class="grey">21/04/2036</p></div>
                 <div class="tab"><p><b>Hours Played</b></p><p class="grey">892 H 14 Mins</p></div>
