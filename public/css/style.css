@@ -171,6 +171,13 @@ button:hover {
     width: 75%;
 }
 
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .download {
     background: none;
     border: 1px solid;
@@ -189,4 +196,66 @@ button:hover {
     49.98% {color: yellow; border-color: yellow;}
     66.64% {color: orange; border-color: orange;}
     83.3% {color: red; border-color: red;}
+}
+
+@media (min-width: 425px) {
+    body {
+        margin: 10px;
+    }
+    li a {
+        font-size: small;
+    }
+    .navbar {
+        justify-content: space-evenly;
+    }
+    .main-section {
+        background: #27292A;
+        border-radius: 20px;
+    }
+    .bg-img {
+        border-radius: 20px;
+        margin: 15px;
+    }
+    .container {
+        background: #1F2122;
+        border-radius: 20px;
+        margin: 15px;
+    }
+    .card-container {
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    .cards {
+        background: #27292A;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .cards img{
+        border-radius: 20px;
+    }
+    .bigger {
+        background: #27292A;
+        grid-template-columns: auto auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border-radius: 20px;
+    }
+    .tab-container {
+        background: #1F2122;
+        padding: 10px;
+        border-bottom-color: #27292A;
+        grid-template-columns: auto auto auto;
+    }
+    .img-cover {
+        border-radius: 20px;
+    }
+    .btn {
+        position: relative;
+        top: 37px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
 }
